@@ -3,17 +3,11 @@ import { createContext, useEffect, useState } from "react";
 export const MainProvider = createContext(null);
 
 const ContextProvider = ({ children }) => {
-  const [theme, setTheme] = useState();
-  const [purple, setPurple] = useState();
-
-  useEffect(() => {}, [theme]);
-  useEffect(() => {}, [purple]);
+  const [notes, setNotes] = useState([]);
 
   const values = {
-    theme,
-    setTheme,
-    purple,
-    setPurple,
+    notes,
+    setNotes,
   };
 
   return (
