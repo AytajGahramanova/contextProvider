@@ -81,6 +81,7 @@ const Main = () => {
             borderRadius: "50%",
             border: "1px solid #4bb9ea",
           }}
+          onClick={() => setColor("#4fc3f7")}
         ></div>
         <div
           style={{
@@ -90,6 +91,7 @@ const Main = () => {
             borderRadius: "50%",
             border: "1px solid #e7c148",
           }}
+          onClick={() => setColor("#ffd54f")}
         ></div>
         <div
           style={{
@@ -99,6 +101,7 @@ const Main = () => {
             borderRadius: "50%",
             border: "1px solid #69aed2",
           }}
+          onClick={() => setColor("#aed581")}
         ></div>
         <button
           style={{
